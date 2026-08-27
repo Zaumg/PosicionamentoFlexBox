@@ -9,7 +9,7 @@ img {
 .itens-extremidades {
     display: flex;
     background-color: aqua;
-      margin-bottom: 50px;
+    margin-bottom: 50px;
     justify-content: space-between;
 }
 /* display: block -> padrão. Posicionamento em bloco 
@@ -63,11 +63,30 @@ justify-content sempre precisa do display:flex, se o display flex não estiver a
     width: 550px;
 }
 
-.roxa itens-extremidades2 {
-     background-color: aqua;
-    margin-bottom: 50px;
+.roxa {
+    background-color: plum;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 960px;
+    justify-content: space-between;
+    flex-direction: row;
 }
+
+.amarelo {
+    background-color: yellow;
+    width: fit-content;
+}
+
+.grupo-espacado {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+.itens-coluna {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 960px;
+    margin-bottom: 50px;
+}
+
